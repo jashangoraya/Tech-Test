@@ -6,8 +6,8 @@ PORT=8080
 #DATABASE
 DB_HOST=localhost
 DB_USER=postgres
-DB_PASSWORD=root
-DB_NAME=tech_test
+DB_PASSWORD=
+DB_NAME=
 DB_PORT=5432
 EMAIL_NOTIFICATION=example@gmail.com
 ```
@@ -37,13 +37,3 @@ Create Webhook
 2.) Order fulfillment for Api endpoint (BASE_URL//api/webhook/order-fulfillment)
 
 ![Webhooks](./screenshots/webhooks.png)
-
-## Loom Video
-
-Video Link:- https://www.loom.com/share/141057041aab41bda3d0c7814741a773
-
-## Email
-
-Email is implemented using Nodemailer and googleapis.
-
-![Email Via Nodemailer](./screenshots/email-notification.png)
